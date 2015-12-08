@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Web Development",
+	
+    "infotext": "I designed and developed an AnjularJs Web application to accommodate the new Leaving Certificate points. The app allows the user to take the hassle out of calculating the points can link them to a CAO course search on Careersportal.ie",
+    "class": "glyphicon glyphicon-tasks",
+	"href":"http://alanleonard.net16.net/codeschool/pointsCalculator.html#/"
+	
+	
+  },
+  {
+    "name": "Video Production",
+    "infotext": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh again.",
+    "class": "glyphicon glyphicon-film",
+	"href":"https://itunes.apple.com/ie/app/caocalc/id905349021?mt=8"
+	
+  },
+  {
+    "name": "Mulitmedia",
+    "infotext": "Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus then.",
+    "class": "glyphicon glyphicon-picture",
+	"href":"http://www.careersportal.ie/news/news.php?Heading=Ireland+Leading+the+way+in+Guidance+Resources&ID=19021402#.VazzXflVhBe"
+	
+  }
+
+]

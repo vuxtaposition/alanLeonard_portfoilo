@@ -1,0 +1,194 @@
+  
+      <header class="intro-header">
+        <div class="row" style="text-align:center;">
+            <img src="images/boat2.jpg" width="100%" />
+        </div>
+    </header>
+   
+
+     <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row" ng-controller="alanCtrl">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                   Alan Leonard - Portfolio
+                </h1>
+            </div>
+            <div class="col-md-4" ng-repeat="heads in heading"  >
+                <div class="panel panel-default">
+                    <div class="panel-heading" >
+                        <h4><i class="{{heads.class}}"></i> {{heads.name}}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>{{heads.infotext}}</p>
+                        <a href="about.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+        <!-- /.row -->
+<!-- NEW SECTION-->
+     <div class="row" ng-controller="alanCtrl">
+            <div class="col-lg-12">
+                <h2 class="page-header">Web and App Devleopment</h2>
+            </div>
+            <div class="col-md-4 text-center" ng-repeat="items in display">
+                <div class="thumbnail">
+                <div id="toplogo">
+                <img ng-src="{{items.make}}" alt="{make}}" width="70"/>
+                </div>
+
+                     <a href="{{items.href}}">
+                    <img class="img-responsive img-portfolio img-hover"  ng-src="{{items.imagepic}}" alt="anjularJs thumb"  id="main_img">
+                </a> 
+<!--<img src="images/status.gif"  id="loader_img" /> -->
+                    <div class="caption">
+                        <h3>{{items.name}}<br><br>
+                          <a class="btn btn-default" href="{{items.href}}" role="button">View details Â»</a>
+                        </h3>
+                        <p>{{items.infotext}}</p>
+                      
+                    </div>
+                </div>
+            </div>
+           
+            
+            
+            
+            
+        </div>
+
+<!--END NEW SECTION-->
+       
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Multimedia and Video Production</h2>
+            </div>
+            <div class="col-md-6">
+                <p>Skill Include</p>
+                <ul>
+                    
+                    <li>jQuery</li>
+                    <li>Javascript</li>
+                    <li>PHP</li>
+                    <li> MySQL</li>
+                    <li>HTML, CSS</li>
+                    <li>AnjularJS</li>
+                    <li>Java,C# Languages</li>
+                    <li>PhotoShop/ Illulistrator / FireWorks</li>
+                     <li>Adobe Premier Pro Video Editing</li>
+                </ul>
+                <p>I have a wide range of skills form coding to desktop publishing, I also enjoy Photography</p>
+            </div>
+            <div class="col-md-6">
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/nklskR3QdCs" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+           <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Languages</h2>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" title="wordpress" src="images/wordpress.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="IOS" src="images/ios.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/androidlogo.png" title="Andorid " alt="android app image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/html5.png" alt="html">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="angularjs"  src="images/angular.png" alt=" angular">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <img class="img-responsive customer-img" title="css3 image" src="images/css3.png" alt="css3">
+            </div>
+        </div>
+        <!-- /.row -->
+         <div class="row" style="margin-top:40px;">
+            <div class="col-lg-12">
+              
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" title="php" src="images/php.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="mysql" src="images/mysql.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/javascript.png" title="javascript " alt="javascript ">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/jquery.png" alt="jquery">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="java"  src="images/java.png" alt=" java">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <img class="img-responsive customer-img" title="bootstrap image" src="images/bootstrap.png" alt="bootstrap">
+            </div>
+        </div>
+        <!-- /.row -->
+         <div class="row" style="margin-top:40px;">
+            <div class="col-lg-12">
+               <h2 class="page-header">Software Skills</h2>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" title="adobe" src="images/adobe.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="photo" src="images/photoshop.png" alt=" image">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/animate.png" title="animate " alt="animate ">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+               <img class="img-responsive customer-img" src="images/dream.png" alt="dream">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+                <img class="img-responsive customer-img" title="illustrator"  src="images/illustrator.png" alt=" java">
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <img class="img-responsive customer-img" title="premier" src="images/premier.png" alt="ai">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Alan Leonard - Portfolio 2015</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+     <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>

@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Anjular Web App",
+	
+    "infotext": "I designed and developed an AnjularJs Web application to accommodate the new Leaving Certificate points. The app allows the user to take the hassle out of calculating the points and can link them to a CAO course search on Careersportal.ie",
+    "imagepic": "images/angPointsThumb2.png",
+	"href":"http://alanleonard.net16.net/codeschool/pointsCalculator.html#/",
+	"make":"images/angular.png"
+	
+	
+  },
+  {
+    "name": "IOS Points Calculator",
+    "infotext": "This is the mobile IOS version of the Leaving Cert Points Calculator. The App was made with Xcode and is using the objective C language. Includes a direct link to CAO Course search. The App is available to download from ITunes.",
+    "imagepic": "images/appThumb.png",
+	"href":"https://itunes.apple.com/ie/app/caocalc/id905349021?mt=8",
+	"make":"images/ios.png"
+	
+	
+  },
+  {
+    "name": "Responsive Web Desing",
+    "infotext": "While at careersportal.ie I was set the task of making their website mobile compatible. Using HTML5 CSS3, JQuery and  JavaScript . Over the process I implemented various JQuery functionality including Hover Intent that gives more control over the main menu.",
+    "imagepic": "images/rory.png",
+	"href":"http://www.careersportal.ie/news/news.php?Heading=Ireland+Leading+the+way+in+Guidance+Resources&ID=19021402#.VazzXflVhBe",
+	"make":"images/html5.png"
+	
+  }
+  ,
+  {
+    "name": "AngularJS Web Design",
+    "infotext": "Currently an ongoing project. I created an Angular / Bootstrap website for a small Hair Salon and beauty business In Co Louth. The Angular functionality allows the user to post comments on the staffs profile page. The site also contains an Anjular Contact page.",
+    "imagepic": "images/cutandwave.png",
+	"href":"http://cutandwavedrogheda.herobo.com/",
+	"make":"images/angular.png"
+	
+  }
+   ,
+  {
+    "name": "Classic Cabs",
+    "infotext": "This site was built for a small Taxi company in Dublin. The main features are the availability of booking online. The site is fully responsive and was made using CSS3 and HTML5.",
+    "imagepic": "images/classiccabs.png",
+	"href":"http://classiccabs.comoj.com/",
+	"make":"images/html5.png"
+	
+  }
+   ,
+  {
+    "name": "Careersportal.ie",
+    "infotext": "Since leaving college I have worked for Careersportal.ie, I have been responsible for redesign of the site for mobile compatibility, menu functionality, user interaction and video editing for the site.",
+    "imagepic": "images/careersportal.png",
+	"href":"http://www.careersportal.ie/",
+	"make":"images/html5.png"
+	
+  }
+  
+   ,
+  {
+    "name": "BusinessEductaion.ie",
+    "infotext": "This is a WordPress site I was involved with. It is an online resource for teachers and students of Leaving Certificate Business and Economics. My main task here was to overwrite the CSS for better mobile experience.",
+    "imagepic": "images/beMain.png",
+	"href":"http://businesseducation.ie/",
+	"make":"images/wordpress.png"
+	
+  }
+   ,
+  {
+    "name": "Android Points Calculator",
+    "infotext": "This is the mobile Android version of the Leaving Cert Points Calculator. The App was made with Android Studio and is using the Java language. Includes a direct link to CAO Course search. The App is available to download from Google Play.",
+    "imagepic": "images/androidMain.png",
+	"href":"https://play.google.com/store/apps/details?id=ie.careersportal.caocalc",
+	"make":"images/androidlogo.png"
+	
+  }
+  ,
+  {
+    "name": "Portfolio Site",
+    "infotext": "My profile site is a Single Page Application (SAP) using Angular and Bootstrap. By using the Model View Controller, HTTP Requests and Route dependency I was able to achieve this. The site also contains an about page and links to orther projects.",
+    "imagepic": "images/alanleonard.png",
+	"href":"#/",
+	"make":"images/angular.png"
+	
+  }
+]
